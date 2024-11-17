@@ -1,6 +1,7 @@
 const btnToggle = document.getElementById('theme-toggle');
 const iconDark = document.getElementById('theme-toggle-dark-icon');
 const iconLight = document.getElementById('theme-toggle-light-icon');
+const header = document.getElementById('header');
 
 if (
   localStorage.getItem('color-theme') === 'dark' ||
